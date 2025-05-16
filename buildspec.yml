@@ -10,6 +10,10 @@ phases:
       - echo Building Go service
       - if go build ./...; then echo "BUILD_SUCCESS=true" >> build_status.txt; else echo "BUILD_SUCCESS=false" >> build_status.txt; fi
 
+  post_build:
+    commands:
+      - echo "Build complete
+
 artifacts:
   files:
     - build_status.txt
