@@ -19,7 +19,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Build complete
+      - echo "Build complete. Exit status: $?
 
 artifacts:
   files:
