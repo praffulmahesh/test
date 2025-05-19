@@ -21,7 +21,8 @@ phases:
 
   post_build:
     commands:
-      - echo "Build complete
+      - echo "Build complete"
+      - echo "Test Complete"
 
 artifacts:
   files:
